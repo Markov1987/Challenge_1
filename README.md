@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-We perform crowdfunding projects all over the world, each one with its own particularities such as country and currency based on its geographical location, a different creation, and due date, and, finally, the outcome based on original goal vs pledged money. 
+Crownfunding is an alternative financing scheme based on raising small amounts of money from a large number of contributors. Crowdfunding projects are executed on a daily basis all over the world, each one with its own logistical and financial particularities such as country and currency based on its geographical location, a different creation, and due date, different categories, etc. All of them have in commond is a money goal that they try to reach to succed project's completition.   
 
 To ensure new projects are successful, we want to understand how the different variables affect the final outcome. 
 
