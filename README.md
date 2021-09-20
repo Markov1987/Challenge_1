@@ -8,9 +8,9 @@ To ensure new projects are successful, we want to understand how the different v
 
 ### Purpose
 
-We want to understand how different crowdfunding projects campaigns fared in relation to their launch dates and their funding goals. 
+**We want to understand how different crowdfunding projects campaigns fared in relation to their launch dates and their funding goals.** 
 
-To execute this analysis, we have historical information for 4,115 crowdfunding projects around the world with useful information such as Money Goal, Money Pledged, Outcome, Creation Date, etc. That we have reviewed, analyze, and prepare to uncover trends and provide insights. 
+To start this analysis, we have the historical information for 4,115 crowdfunding projects around the world with useful information such as Money Goal, Money Pledged, Outcome, Creation Date, etc. That we have reviewed, analyze, and prepare to uncover trends and provide insights. 
 
 We have worked out our data in two workbooks named: 
 
@@ -21,18 +21,45 @@ Each workbook contains the main data source at the "Kickstarter" tab and its res
 
 ## Analysis and Challenges
 
+To asses the question, we executed two technial analysis over a reviewed and modified basis, we also created some extra variables to provide some additional information. Main challenge was to work with large data basis, not only for the data inself but because of the diversity and the potential unobservable variables affecting outcome. To increase our explanation ability, we focused in specific categories/ subcategories of projects. Additional minor challenges included Data with uncommond formats and measurements that we needed to adjust to provide accesible insights. 
+
 ### Analysis of Outcomes Based on Launch Date
+
+To identify the potential relation among Outcome and Launch Date, we focused on Theater projects: 
+
+![Theater_Outcomes_vs_Launch](Resources/Theater_Outcomes_vs_Launch.png)
+
+From the shown graph we can conclude: 
+
+1) It does not seems to be an specific timing during the year for canceled projects but January is the highest cancelation month. 
+2) **April to August are the best months to launch and having success, picking in May.**
+3) December is the worst month to launch since is the one with lowest success rate. 
+
+
+*Note altought May is the month with more success projects it is also the month with more total projects, thus, we also reviewed the success and cancelation outcomes as percentages and found consistency with the conclusiones shown before.* 
 
 ### Analysis of Outcomes Based on Goals
 
-### Challenges and Difficulties Encountered
+Moving forward to understand potential relation among Outcome and Goal we focused on Plays: 
 
-## Results
+![Outcomes_vs_Goals](Resources/Outcomes_vs_Goals.png)
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+From the graph above, it seems we can split the relation in two considering 25 to 29 k as a break point, nevertheless, **note 96% ot the total observations are for lower than 25 k goal, thus, this should be our main focus to reach solid conclusions**:
 
-- What can you conclude about the Outcomes based on Goals?
+1) There is a negative correlation between success rate and goal.
+2) Goals up to 5k have over 70% of success rate while 10 to 20 k are still a little over 50% success rate. 
 
-- What are some limitations of this dataset?
+## Results & Recommendations
 
-- What are some other possible tables and/or graphs that we could create?
+Based on our analysis, we reached two main conclusions to maximize success chances:
+
+1) For Theater projects, launch the project from April to August ideally during May.
+2) For Plays projects, if possivle, use goals up to 5 k that got a high success rate, greater goals reduces success rate considerably. Avoid goals over 20 k since their sucecss rate is lower than 50%
+
+
+Final comments: 
+
+As long as we keep using data to support decision making, we should assume some data as creation date would be affected, thus, we may want to start using percentages per period and not total values to ensure we are not having missleading conclusions due to this change.    
+
+Further analysis is recommended to fully understand why a few observations suggest that some projects in the range from 35 to 45 k may have a high success rate and if this can be used somehow.   
+
