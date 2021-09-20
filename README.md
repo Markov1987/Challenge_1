@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-Crownfunding is an alternative financing scheme based on raising small amounts of money from a large number of contributors. Crowdfunding projects are executed on a daily basis all over the world, each one with its own logistical and financial particularities such as country and currency based on its geographical location, a different creation, and due date, different categories, etc. All of them have in commond is a money goal that they try to reach to succed project's completition.   
+Crowdfunding is an alternative financing scheme based on raising small amounts of money from a large number of contributors. Crowdfunding projects are executed on a daily basis all over the world, each one with its own logistical and financial particularities such as country and currency based on its geographical location, a different creation, and due date, different categories, etc. All of them have in common is a money goal that they try to reach to succeed project's completion.   
 
 To ensure new projects are successful, we want to understand how the different variables affect the final outcome. 
 
@@ -21,7 +21,7 @@ Each workbook contains the main data source at the "Kickstarter" tab and its res
 
 ## Analysis and Challenges
 
-To asses the question, we executed two technial analysis over a reviewed and modified basis, we also created some extra variables to provide some additional information. Main challenge was to work with large data basis, not only for the data inself but because of the diversity and the potential unobservable variables affecting outcome. To increase our explanation ability, we focused in specific categories/ subcategories of projects. Additional minor challenges included Data with uncommond formats and measurements that we needed to adjust to provide accesible insights. 
+To assess the question, we executed two technical analyses over a reviewed and modified basis, we also created some extra variables to provide some additional information. Main challenge was to work with large data basis, not only for the data itself but because of the diversity and the potential unobservable variables affecting outcome. To increase our explanation ability, we focused in specific categories/ subcategories of projects. Additional minor challenges included Data with uncommon formats and measurements that we needed to adjust to provide accessible insights. 
 
 ### Analysis of Outcomes Based on Launch Date
 
@@ -31,12 +31,12 @@ To identify the potential relation among Outcome and Launch Date, we focused on 
 
 From the shown graph we can conclude: 
 
-1) It does not seems to be an specific timing during the year for canceled projects but January is the highest cancelation month. 
+1) It does not seem to be an specific timing during the year for canceled projects but January is the highest cancelation month. 
 2) **April to August are the best months to launch and having success, picking in May.**
 3) December is the worst month to launch since is the one with lowest success rate. 
 
 
-*Note altought May is the month with more success projects it is also the month with more total projects, thus, we also reviewed the success and cancelation outcomes as percentages and found consistency with the conclusiones shown before.* 
+*Note although May is the month with more success projects it is also the month with more total projects, thus, we also reviewed the success and cancelation outcomes as percentages and found consistency with the conclusions shown before.* 
 
 ### Analysis of Outcomes Based on Goals
 
@@ -44,7 +44,7 @@ Moving forward to understand potential relation among Outcome and Goal we focuse
 
 ![Outcomes_vs_Goals](Resources/Outcomes_vs_Goals.png)
 
-From the graph above, it seems we can split the relation in two considering 25 to 29 k as a break point, nevertheless, **note 96% ot the total observations are for lower than 25 k goal, thus, this should be our main focus to reach solid conclusions**:
+From the graph above, it seems we can split the relation in two considering 25 to 29 k as a break point, nevertheless, **note 96% of the total observations are for lower than 25 k goal, thus, this should be our main focus to reach solid conclusions**:
 
 1) There is a negative correlation between success rate and goal.
 2) Goals up to 5k have over 70% of success rate while 10 to 20 k are still a little over 50% success rate. 
